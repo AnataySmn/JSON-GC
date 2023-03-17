@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,12 +52,15 @@
 		{
 			var iScreamInc = request.response;
             console.log(iScreamInc);
+			populateHeader(iScreamInc);
 		}
 
 		/* STEP 9: Build out the populateHeader() function */
-		function populateHeader()
+		function populateHeader(jsonObj)
 		{
              var headerH1 = document.createElement('h1');
+			 headerH1.textContent = jsonObj.companyName;
+			 header.appendChild(headerH1);
 		}
 
 		/* STEP 10a: Assemble the showTopFlavors() function */
