@@ -38,24 +38,24 @@
       "image": "strawberry-sprinkle.svg"
     },
     {
-      "name": " Green",
-      "calories": 425,
-      "type": "frozen yogurt",
+      "name": " Pistachio",
+      "calories": 400,
+      "type": "ice cream",
       "ingredients": [
         "wild strawberries",
         "milk chocolate dip",
-        "candy sprinkles"
+        "pistachio"
       ],
       "image": "ice-cream-xtra1.svg"
     },
     {
-    "name": "Yellow",
-      "calories": 425,
-      "type": "frozen yogurt",
+    "name": "Sundae ice cream",
+      "calories": 325,
+      "type": "ice cream",
       "ingredients": [
         "wild strawberries",
         "milk chocolate dip",
-        "candy sprinkles"
+        "chocolate"
       ],
       "image": "ice-cream-xtra2.svg"
     }
